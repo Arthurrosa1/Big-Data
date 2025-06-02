@@ -1,0 +1,11 @@
+bairro,escola,origem_lat,origem_lng,destino_lat,destino_lng,distancia_km,duracao_min,preco_estimado
+Centro,EEB Simão José Hess,-27.5914,-48.5770,-27.5968,-48.5490,8.03,15.5,5.69
+Centro,Escola Básica Silveira de Souza,-27.5914,-48.5770,-27.5966,-48.5504,8.18,15.8,5.81
+Trindade,EEB Antonieta de Barros,-27.5914,-48.5770,-27.6023,-48.5159,9.4,17.3,6.67
+Trindade,EBM José Jacinto Cardoso,-27.5914,-48.5770,-27.6000,-48.5180,9.8,17.7,6.96
+Canasvieiras,EBM Osmar Cunha,-27.5914,-48.5770,-27.4305,-48.4530,37.35,55.2,26.49
+Canasvieiras,EBM Virgílio dos Reis Várzea,-27.5914,-48.5770,-27.4310,-48.4518,37.5,55.5,26.61
+Ingleses,EBM Herondina Medeiros Zeferino,-27.5914,-48.5770,-27.4350,-48.4070,35.1,52.4,24.92
+Ingleses,EBM Neuza Paula da Silveira,-27.5914,-48.5770,-27.4320,-48.4115,34.85,51.8,24.76
+Campeche,EBM Brigadeiro Eduardo Gomes,-27.5914,-48.5770,-27.6850,-48.5062,16.2,26.1,11.50
+Campeche,CEI Criança Criança,-27.5914,-48.5770,-27.6870,-48.5045,16.5,26.5,11.72

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Entregas Escolares</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd_1Wv9J-dL_BkaEbqt7bm7eGZh66bsZI&callback=initMap" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+        
+</head>
+
+<body>
+    <h1>📦 Painel de Entregas Escolares - Florianópolis</h1>
+    <div class="container">
+        <section class="graficostodos">
+        <h2 class="graficosbnt">📊 Duração,Distância e Custo por Escola</h2>
+        <div class="graficos">
+            <div id="grafico-tempo"></div>
+            <div id="grafico-distancia"></div>
+            <div id="grafico-preco"></div>
+        </div>
+        </section>
+        <section class="mapabnt">
+        <h2 class="mapa">🗺️ Mapa Interativo</h2>
+        <div id="mapa"></div>
+        </section>
+    </div>
+
+    <script src="dadosRotas.js"></script>
+    <script src="script.js"></script>
+
+    <section class="regressao">
+  <h2>📊 Análise Estatística - Tempo vs Distância</h2>
+  <div class="reg-metricas">
+    <div><strong>Intercepto</strong><br>2.29</div>
+    <div><strong>Coeficiente (min/km)</strong><br>1.25</div>
+    <div><strong>Previsão p/ 15km</strong><br>21.05 min</div>
+  </div>
+  <div id="grafico-regressao" style="height:400px;"></div>
+</section>
+
+
+</body>
+
+</html>

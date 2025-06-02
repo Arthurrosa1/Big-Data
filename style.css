@@ -1,0 +1,64 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 1rem 0;
+  margin: 0;
+}
+.mapa,
+.graficosbnt{
+  text-align:left;
+  color: white;
+  padding: 1rem 0;
+  margin: 3px;
+}
+
+.container {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.graficos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+#mapa {
+  height: 500px;
+  width: 90%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.regressao,
+.graficostodos,
+.mapabnt {
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  margin: 30px;
+}
+
+.reg-metricas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
