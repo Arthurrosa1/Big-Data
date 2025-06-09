@@ -35,7 +35,7 @@ function gerarGraficos() {
           destination: rota.destino,
           travelMode: google.maps.TravelMode.DRIVING,
           drivingOptions: {
-            departureTime: new Date(),
+            departureTime: new Date(5),
             trafficModel: 'best_guess'
           }
         };
