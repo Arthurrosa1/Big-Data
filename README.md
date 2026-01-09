@@ -57,7 +57,7 @@ Big-Data/
 
 ## ▶️ Resultado Final
 
-Acesse o resultado final da página 👉 https://arthurrosa1.github.io/Jogo-Detona-Ralph/
+Acesse o resultado final da página 👉 https://arthurrosa1.github.io/Big-Data/
 
 ---
 
